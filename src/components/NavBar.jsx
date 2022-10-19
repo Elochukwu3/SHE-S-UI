@@ -10,7 +10,7 @@ export default function () {
         <ul className="menuList menu">
             <li>Men</li>
             <li>Women</li>
-            <li className="menuHover">Accessories <span>new</span></li>
+            <li className="menuHover">Accessories <span>New</span></li>
             <li>Sales</li>
             <li>Winber</li>
         </ul>
