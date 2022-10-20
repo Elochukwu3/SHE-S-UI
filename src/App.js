@@ -1,19 +1,21 @@
 
 import './App.css';
-import CenterPage from './components/CenterPage';
 import NavBar from './components/NavBar';
-import SideDisplay from './components/SideDisplay';
+import Home from './components/Home';
+import { Route, Routes } from 'react-router-dom';
+import WomenPage from './components/WomenPage';
+import Accessories from './components/Accessories ';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <section className='sideContainer'>
-        <SideDisplay/>
-        <main>
-          <CenterPage />
-        </main>
-      </section>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='women' element={<WomenPage/>}/>
+        <Route path='accessories' element={<Accessories/>}/>
+      </Routes>
+
       
     </div>
   );

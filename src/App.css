@@ -125,7 +125,7 @@ cursor: pointer;
   z-index: -1;
   font-size: 5rem;
   transform: rotate(270deg);
-  left: 5%;
+  left: 10%;
   top: 40%;
   color: #1a1b1f;
   text-shadow: 
@@ -296,4 +296,14 @@ flex: 1;
     padding: 0;
     }
  
+}
+.women p{
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.women img:hover{
+  transform: scale(1.1);
+  opacity: .8;
 }

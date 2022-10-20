@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 
 export default function () {
   const [toggle, setToggle] = useState(false);
@@ -11,9 +12,9 @@ export default function () {
             SHE'S
         </p>
         <ul className={toggle?'menuList active' :" menuList"}>
-            <li>Men</li>
-            <li>Women</li>
-            <li className="menuHover">Accessories <span>New</span></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to={'women'}>Women</Link></li>
+            <li className="menuHover"><Link to={'accessories'}>Accessories</Link> <span>New</span></li>
             <li>Sales</li>
             <li>Winber</li>
         </ul>
