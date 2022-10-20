@@ -158,7 +158,7 @@ font-weight: bolder;
   font-family: 'Recursive', sans-serif;
   color: #f4cb9f;
   text-transform: capitalize;
-  padding-bottom: .5rem;
+  padding-bottom: 0rem;
   /* font-family: 'IBM Plex Mono', monospace; */
   font-weight: border;
   font-family: 'IBM Plex Serif', serif;
@@ -191,11 +191,11 @@ padding-bottom: .6rem;
   
 }
 .sideArticle button{
-  padding: .4rem 1rem;
+  padding: .5rem 1.2rem;
   border-radius: 15px;
   border: unset;
   font-size: 1rem;
   font-weight: 400;
   text-transform: capitalize;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
