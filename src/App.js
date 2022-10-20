@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <section>
+      <section className='sideContainer'>
         <SideDisplay/>
       </section>
       
